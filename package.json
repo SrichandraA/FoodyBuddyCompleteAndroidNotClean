@@ -1,0 +1,35 @@
+{
+  "name": "AwesomeProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^6.3.1",
+    "native-base": "^2.4.2",
+    "react": "16.3.0",
+    "react-dom": "^16.3.2",
+    "react-native": "~0.54.1",
+    "react-native-confirmation-code-input": "^1.0.4",
+    "react-native-layout-grid": "0.0.2",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-modal-datetime-picker": "^5.1.0",
+    "react-native-simple-toast": "0.0.8",
+    "react-navigation": "^1.5.11",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "rn-viewpager": "^1.2.9",
+    "toggle-switch-react-native": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
